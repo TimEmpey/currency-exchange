@@ -10,9 +10,9 @@
 * _HTML_
 * _CSS_
 * _Bootstrap_
-*_Webpack_
-*_Babel_
-*_ES Lint_
+* _Webpack_
+* _Babel_
+* _ES Lint_
 
 ## Description
 
@@ -20,11 +20,13 @@ _Currency converter that take any amount in a variety of different currencies an
 
 ## Setup/Installation Requirements
 
-* _Installing all packages with $ npm install._
-* _Building the project using webpack with $ npm run build_
-* _Starting a development server with $ npm run start_
-* _Linting JS files in the src folder with $ npm run lint_
-* _Running tests with Jest using $ npm run test_
+* Download the repository: https://github.com/TimEmpey/currency-exchange.git
+* Sign up for an api key from ExchangeRate-api at https://app.exchangerate-api.com/dashboard
+* _Create a .env file in the root directory and type in "API_KEY = your key".
+* Install all packages with $ npm install.
+* Install npm install dotenv-webpack@2.0.0 --save-dev
+* Build the project using webpack with $ npm run build
+* Start a development server with $ npm run start
 
 ## Known Bugs
 
