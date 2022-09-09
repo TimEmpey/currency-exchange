@@ -1,8 +1,8 @@
-# _Template_
+# _Currency Exchange Center_
 
 #### By _**Tim Empey**_
 
-#### _Quicken file creation process_
+#### _Convert any currencies_
 
 ## Technologies Used
 
@@ -11,13 +11,12 @@
 * _CSS_
 * _Bootstrap_
 *_Webpack_
-*_Jest_
 *_Babel_
 *_ES Lint_
 
 ## Description
 
-_Template repo to streamline the file setup process for JS webpages with all files set up and ready for use_
+_Currency converter that take any amount in a variety of different currencies and converts it to the users currency of choice_
 
 ## Setup/Installation Requirements
 
