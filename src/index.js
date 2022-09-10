@@ -23,7 +23,7 @@ function printError (error, baseCurrency, newCurrency) {
   let outputs = document.getElementById("conversion-output");
   outputs.innerHTML = null;
   if (error.toString().includes('404')){
-    outputs.innerText = `Either ${baseCurrency} or ${newCurrency} do not exist \n ${error}`;
+    window.location.assign('error.html');
   } else {
     outputs.innerText = `There was an error accessing information for ${baseCurrency} or ${newCurrency} \n ${error}`;
   }
