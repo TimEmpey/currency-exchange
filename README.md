@@ -2,7 +2,7 @@
 
 #### By _**Tim Empey**_
 
-#### _Convert any currencies_
+#### _Convert any currency_
 
 ## Technologies Used
 
@@ -22,7 +22,7 @@ _Currency converter that take any amount in a variety of different currencies an
 
 * Download the repository: https://github.com/TimEmpey/currency-exchange.git
 * Sign up for an api key from ExchangeRate-api at https://app.exchangerate-api.com/dashboard
-* _Create a .env file in the root directory and type in "API_KEY = your key".
+* Create a .env file in the root directory and type in "API_KEY = your key".
 * Install all packages with $ npm install.
 * Install npm install dotenv-webpack@2.0.0 --save-dev
 * Build the project using webpack with $ npm run build
