@@ -21,9 +21,11 @@ function printElements (response, baseCurrency, newCurrency, usdAmount) {
 
 function printError (error, baseCurrency, newCurrency) {
   let outputs = document.getElementById("conversion-output");
+  let outputError = document.getElementById("conversion-output-error");
   outputs.innerHTML = null;
   if (error.toString().includes('404')){
     window.location.assign('error.html');
+    outputError.innerText = baseCurrency;
   } else {
     outputs.innerText = `There was an error accessing information for ${baseCurrency} or ${newCurrency} \n ${error}`;
   }
@@ -41,4 +43,8 @@ function handleForm (e) {
 
 window.addEventListener("load", function() {
   document.querySelector('form').addEventListener("submit", handleForm);
+});
+
+window.addEventListener("load", function() {
+  document.querySelector("body").addEventListener("load", handleForm);
 });

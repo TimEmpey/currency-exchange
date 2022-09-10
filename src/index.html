@@ -10,7 +10,7 @@
       <label for="base-currency">Base Currency</label>
       <input type="text" id="base-currency" name="base-currency" value="USD" minlength="3" maxlength="3">
       <label for="usd-input">Amount: </label>
-      <input type="number" id="usd-input" name="usd-input">
+      <input type="integer" id="usd-input" name="usd-input">
       <label for="target-currency">New Currency</label>
       <input type="text" id="target-currency" name="target-currency" value="EUR" minlength="3" maxlength="3">
       <button type="submit">Convert</button>
@@ -19,7 +19,6 @@
   <div class="output">
     <h2>Exchange</h2>
     <p id="conversion-output"></p>
-    <img id="new-currency-flag">
   </div>
 </body>
 </html>

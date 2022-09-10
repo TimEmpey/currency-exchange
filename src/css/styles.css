@@ -1,6 +1,19 @@
 
 body {
   background:linear-gradient(to right, #2980B9, #6DD5FA, #FFFFFF);
+  background-color: lightblue;
+}
+
+.index-body {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10%;
+}
+
+h2 {
+  margin-top: 10%;
 }
 
 p{
