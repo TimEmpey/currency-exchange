@@ -6,13 +6,12 @@
 <body class="index-body">
   <h1>Currency Market</h1>
   <div class="input">
+    <h2>Enter Currencies</h2>
     <form id="input-form">
-      <label for="base-currency">Base Currency</label>
-      <input type="text" id="base-currency" name="base-currency" value="USD" minlength="3" maxlength="3">
-      <label for="usd-input">Amount: </label>
-      <input type="integer" id="usd-input" name="usd-input">
-      <label for="target-currency">New Currency</label>
-      <input type="text" id="target-currency" name="target-currency" value="EUR" minlength="3" maxlength="3">
+      <input type="integer" id="usd-input" name="usd-input" placeholder="Amount"><br><br>
+      <input type="text" id="base-currency" name="base-currency" placeholder="Base Currency" minlength="3" maxlength="3">
+      <img src="./css/images/arrow.png">
+      <input type="text" id="target-currency" name="target-currency" placeholder="Target Currency" minlength="3" maxlength="3">
       <button type="submit">Convert</button>
     </form>
   </div>
