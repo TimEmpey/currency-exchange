@@ -19,14 +19,10 @@ module.exports = {
     new ESLintPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'galactic-age',
+      title: 'currency-exchange',
       filename: 'index.html',
       template: './src/index.html',
       inject: 'body'
-    }),
-    new HtmlWebpackPlugin({
-      filename: 'error.html',
-      template: './src/html/error.html'
     }),
   ],
   module: {

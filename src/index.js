@@ -42,4 +42,3 @@ function handleForm (e) {
 window.addEventListener("load", function() {
   document.querySelector('form').addEventListener("submit", handleForm);
 });
-
